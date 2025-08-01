@@ -10,7 +10,7 @@ It handles the complete workflow: uninstalls the existing AVD agent, reinstalls 
 
 This script is ideal for two common administrative scenarios:
 
-1.  **Moving a Session Host to a New Host Pool:** When you need to migrate an existing AVD session host from one host pool to another (e.g., moving from a "Testing" pool to a "Production" pool).
+1.  **Moving a Session Host to a New Host Pool:** When you need to migrate an existing AVD session host from one host pool to another (e.g., moving from a "Testing" pool to a "Production" pool). This workflow requires removing the host from the original pool in the Azure Portal before running the script.
 2.  **Re-registering a Corrupted or Removed Host:** If a session host was accidentally removed from its host pool in the Azure portal or its registration has become corrupted, this script can quickly and reliably re-establish its connection.
 
 ---
